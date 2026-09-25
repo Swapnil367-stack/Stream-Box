@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>netflix clone</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="box">
+
+      <nav>
+        <span><img width="100px" src="assets/images/logo.svg" alt="logo"></span>
+
+        <div class="flex">
+          <button class="btn"> English</button>
+          <button class=" btn-red">sign in</button>
+        </div>
+      </nav>
+      <div class="hero">
+        <span> Unlimited movies,<br>
+          shows, and more <br></span>
+        <span>Starts at ₹149. Cancel at any time. </span>
+        <span>Ready to watch? Enter your email to create or restart your membership.</span>
+
+        <div>
+          <input type="text" placeholder="Email Address">
+          <button class="btn-red-sm">Get Started > </button>
+        </div>
+      </div>
+    
+    <div class="saparation">
+
+    </div>
+
+    <!------------------- rows ------------------>
+    <section class="trandingn-now">
+      <h2 style="color: aliceblue;" class="section-header">Trending Now</h2>
+      <div class="Movie-container">
+        <button class="slider-button slider-button-previous" type="button" aria-label="Previous movies">&#8249;</button>
+        <div class="slider-viewport">
+          <div class="rank-card">
+            <div class="movie-card">
+              <span class="rank-number">1</span>
+              <img style="border-radius: 10px;" src="assets/images/img.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">2</span>
+              <img style="border-radius: 10px;" src="assets/images/img1.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">3</span>
+              <img style="border-radius: 10px;" src="assets/images/img2.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">4</span>
+              <img style="border-radius: 10%;" src="assets/images/img3.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">5</span>
+              <img style="border-radius: 10px;" src="assets/images/img5.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">6</span>
+              <img style="border-radius: 10px;" src="assets/images/img6.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">7</span>
+              <img style="border-radius: 10px;" src="assets/images/img7.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">8</span>
+              <img style="border-radius: 10px;" src="assets/images/img8.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+
+            <div class="movie-card">
+              <span class="rank-number">9</span>
+              <img style="border-radius: 10px;" src="assets/images/img9.jpg" alt="netflix movie" class="netflixmovie">
+            </div>
+          </div>
+        </div>
+        <button class="slider-button slider-button-next" type="button" aria-label="Next movies">&#8250;</button>
+      </div>
+    </section>
+
+    <section class="more-resons">
+      <div class="container">
+        <h2 class="section-header"> More Reasons to join</h2>
+        <div class="reason-card-container">
+
+          <div class="reson-card">
+            <h3 class="reson-header">Enjoy on your TV</h3>
+            <p class="reson-p">TVs, PlayStation, Xbox, Chromecast,
+              Apple TV, Blu-ray players and more.</p>
+            <div class="reson-image-container">
+              <img src="assets/images/box1img.jpg" alt="netflix-tv-icon">
+            </div>
+          </div>
+
+          <div class="reson-card">
+            <h3 class="reson-header">Download your shows to watch offline</h3>
+            <p class="reson-p">
+              Save your favourites easily and always have something to watch.</p>
+            <div class="reson-image-container">
+              <img src="assets/images/box2img.jpg" alt="netflix-arrow-icon">
+            </div>
+          </div>
+
+          <div class="reson-card">
+            <h3 class="reson-header">Watch everywhere</h3>
+            <p class="reson-p">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+              </p>
+            <div class="reson-image-container">
+              <img src="assets/images/box3img.jpg" alt="netflix-tv-icon">
+            </div>
+          </div>
+
+          <div class="reson-card">
+            <h3 style="display: flex; padding-left: 10px;" class="reson-header">Create profiles for kids</h3>
+            <p class="reson-p">Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+              </p>
+            <div class="reson-image-container">
+              <img src="assets/images/box4img.jpg" alt="netflix-tv-icon">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+  </section>
+
+  <section class="faqs">
+    <div class="faq-container">
+      <h2 class="section-header">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>What is Netflix?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Netflix is a streaming service with a wide variety of TV shows, movies, documentaries, and more.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>How much does Netflix cost?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Choose from flexible plans starting at ₹149 a month. You can change or cancel your plan at any time.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>Where can I watch Netflix?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Watch anywhere, anytime on your phone, tablet, laptop, smart TV, or other connected device.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" aria-expanded="false">
+            <span>How do I cancel my membership?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>You can cancel your membership online in just a few clicks. There are no cancellation fees.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <div class="last-cta-container">
+      <span style="color: aliceblue; display: flex; justify-content: center; font-size: 20px;">Ready to watch? Enter your email to create or restart your membership.</span>
+      <div class="last-cta">
+
+          <input type="text" placeholder="Email Address">
+          <button class="btn-red-sm">Get Started > </button>
+        </div>
+  </div>
+
+
+    <footer class="site-footer">
+    <div class="footer-container">
+      <p class="footer-contact">Questions? Call <a href="tel:0008009191743">000-800-919-1743</a></p>
+
+      <div class="footer-links">
+        <a href="#">FAQ</a>
+        <a href="#">Help Centre</a>
+        <a href="#">Account</a>
+        <a href="#">Media Centre</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Jobs</a>
+        <a href="#">Ways to Watch</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Speed Test</a>
+        <a href="#">Legal Notices</a>
+        <a href="#">Only on Netflix</a>
+      </div>
+
+      <button class="footer-language" type="button">English</button>
+      <p class="footer-country">Netflix India</p>
+      <p class="footer-recaptcha">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+    </div>
+  </footer>
+  </div>
+</body>
+
+</html>
