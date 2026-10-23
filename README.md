@@ -1,4 +1,16 @@
-// The project name Netflix clone is the project clone website of tv show entertainment website.
+# Netflix Clone
 
-on this project we only created worked on frontend skills,
-// we use , HTML, CSS, AND JAVA-SCRIPT  There is no backend languages used.
+A front-end clone of the Netflix homepage, built to practice responsive layouts and DOM scripting.
+
+**Live demo:** https://swapnil367-stack.github.io/Netflix-clone/
+
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+
+## Notes
+Front-end only, with no backend. Built as a practice project.
+
+## Screenshot
+![screenshot](assets/images/your-screenshot.png)
